@@ -10,7 +10,7 @@
 
 # Argumentaciòn del porque de estos Valores:
 
-# Atención = 10
+Atención = 10
 Porque en medicina no se puede distraer. O sea, un pequeño error en una graduación o en un dato del paciente puede afectar el tratamiento. Entonces el sistema tiene que fijarse en todo, hasta en los detalles pequeños. No puede estar “medio atento”, tiene que estar full concentrado.
 
 Memoria = 10
