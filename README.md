@@ -8,7 +8,7 @@
 
 <img width="1575" height="806" alt="Captura de pantalla 2026-02-26 102949" src="https://github.com/user-attachments/assets/88da2547-6d66-40b3-811e-93056ca8a101" />
 
-# Argumentaciòn del porque de estos Valores:
+Argumentaciòn del porque de estos Valores:
 
 #Atención = 10
 Porque en medicina no se puede distraer. O sea, un pequeño error en una graduación o en un dato del paciente puede afectar el tratamiento. Entonces el sistema tiene que fijarse en todo, hasta en los detalles pequeños. No puede estar “medio atento”, tiene que estar full concentrado.
