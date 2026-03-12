@@ -25,6 +25,6 @@ Aquí es donde cambia la cosa. No queremos que la IA tome decisiones por emoció
 En resumen, el agente está pensado para ser súper fuerte en lo técnico (atención, memoria y lenguaje), pero mantener la emoción controlada para que no interfiera. O sea, que piense como profesional, no como alguien que se deja llevar por lo que siente.
 
 
-# imputs brainstrom 
+# Inputs Brainstrom 
 
 <img width="1919" height="881" alt="Captura de pantalla 2026-03-12 104457" src="https://github.com/user-attachments/assets/28169808-3693-4b0a-b148-7bc76b88be57" />
