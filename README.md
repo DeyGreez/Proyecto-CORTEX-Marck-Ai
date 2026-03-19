@@ -38,5 +38,16 @@ Arriba-Abajo (TopDown) y Patrones
 
 Miro:
 
-[Captura de pantalla 2026-03-19 100023.pdf](https://github.com/user-attachments/files/26119558/Captura.de.pantalla.2026-03-19.100023.pdf)
+
+<img width="1020" height="865" alt="Captura de pantalla 2026-03-19 100023" src="https://github.com/user-attachments/assets/26ee89a2-dfd1-4399-ae0b-449d097350a2" />
+
+# El Filtro de Atenciòn
+
+Atenciòn selectiva y Carga Cognitiva
+
+![ollEG](https://github.com/user-attachments/assets/acffaa02-67b9-4d5c-b9f8-e71a948a318c)
+
+Miro:
+
+<img width="1014" height="853" alt="Captura de pantalla 2026-03-19 100733" src="https://github.com/user-attachments/assets/65632649-5872-4aef-9f65-2867c1560a23" />
 
