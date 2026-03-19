@@ -28,3 +28,15 @@ En resumen, el agente está pensado para ser súper fuerte en lo técnico (atenc
 # Inputs Brainstrom 
 
 <img width="1919" height="881" alt="Captura de pantalla 2026-03-12 104457" src="https://github.com/user-attachments/assets/28169808-3693-4b0a-b148-7bc76b88be57" />
+
+# El Flujo Del Procesamiento 
+
+Procesamiento
+Arriba-Abajo (TopDown) y Patrones
+
+![image](https://github.com/user-attachments/assets/fb3b0ad1-802d-4949-bf88-ac8d16b323d7)
+
+Miro:
+
+[Captura de pantalla 2026-03-19 100023.pdf](https://github.com/user-attachments/files/26119558/Captura.de.pantalla.2026-03-19.100023.pdf)
+
