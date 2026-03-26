@@ -51,3 +51,25 @@ Miro:
 
 <img width="1014" height="853" alt="Captura de pantalla 2026-03-19 100733" src="https://github.com/user-attachments/assets/65632649-5872-4aef-9f65-2867c1560a23" />
 
+# El Disco Duro
+
+Memoria a Largo Plazo (LTM): Semántica y Episódica.
+
+
+![BaHL0](https://github.com/user-attachments/assets/e34a2578-4085-4d90-8591-89b653a0a6b8)
+
+Miro:
+
+<img width="1511" height="876" alt="Opera Instantánea_2026-03-26_103039_miro com" src="https://github.com/user-attachments/assets/37800a0e-7f5f-4554-8808-adf057dc030b" />
+
+
+# La Ram Cognitiva
+
+Memoria de Trabajo y Carga Cognitiva (El número mágico 7±2).
+
+![36ykO](https://github.com/user-attachments/assets/cb5822c9-5412-429d-8879-803a8c1ef751)
+
+Miro:
+
+<img width="1524" height="867" alt="Opera Instantánea_2026-03-26_103414_miro com" src="https://github.com/user-attachments/assets/afd912d5-8a30-4528-b8ad-df3638396b73" />
+
