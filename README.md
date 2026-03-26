@@ -58,6 +58,17 @@ Memoria a Largo Plazo (LTM): Semántica y Episódica.
 
 ![BaHL0](https://github.com/user-attachments/assets/e34a2578-4085-4d90-8591-89b653a0a6b8)
 
+| Carpeta / Categoría                  | Tipo de Memoria     | Descripción                                                                 | Ejemplos para Mark-AI (Optometría)                              |
+|--------------------------------------|---------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Anatomía y Fisiología Ocular         | Semántica           | Conceptos básicos y hechos permanentes del ojo y sistema visual            | Estructura de retina, cristalino, nervio óptico, vías visuales |
+| Fórmulas y Cálculos Optométricos     | Semántica           | Ecuaciones y constantes clínicas que nunca cambian                         | Fórmula de lensmaker, Snellen, equivalentes esféricos, dioptrías |
+| Patologías y Diagnósticos            | Semántica           | Enfermedades, signos y criterios diagnósticos                              | Miopía, hipermetropía, astigmatismo, glaucoma, catarata        |
+| Protocolos y Guías Clínicas          | Semántica           | Procedimientos estandarizados y mejores prácticas                          | Examen refractivo completo, normas de prescripción, ISO 9001   |
+| Catálogo de Lentes y Productos       | Semántica           | Información técnica de materiales y tratamientos                           | Tipos de lentes (monofocales, progresivos, fotocromáticos)     |
+| Leyes y Regulaciones                 | Semántica           | Normativa legal y ética en salud ocular                                    | Leyes colombianas de optometría, consentimiento informado      |
+| Historial Clínico (anonimizado)      | Episódica           | Casos y evoluciones de pacientes (solo patrones y lecciones aprendidas)    | Seguimientos de graduación, respuestas a tratamientos          |
+| Investigación y Avances              | Semántica           | Estudios científicos y evidencia actualizada                               | Últimos papers sobre IA en optometría, nuevas tecnologías      |
+
 Miro:
 
 <img width="1511" height="876" alt="Opera Instantánea_2026-03-26_103039_miro com" src="https://github.com/user-attachments/assets/37800a0e-7f5f-4554-8808-adf057dc030b" />
@@ -68,6 +79,21 @@ Miro:
 Memoria de Trabajo y Carga Cognitiva (El número mágico 7±2).
 
 ![36ykO](https://github.com/user-attachments/assets/cb5822c9-5412-429d-8879-803a8c1ef751)
+
+| Componente                  | Descripción                                                                 | Límite Recomendado          | Razón (Carga Cognitiva)                                      |
+|-----------------------------|-----------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
+| Ventana de Contexto         | Memoria de Trabajo / RAM Cognitiva del bot                                  | 7 ± 2 mensajes / turnos     | Número mágico de Miller (evita sobrecarga cognitiva)        |
+| Mensaje actual              | Consulta o mensaje más reciente del usuario                                 | Siempre incluido            | Prioridad máxima (Atención = 10)                            |
+| Mensajes anteriores         | Historial inmediato de la conversación                                      | Hasta 6 mensajes previos    | Mantiene contexto clínico reciente sin saturar la RAM       |
+| Mensajes descartados        | Mensajes que salen de la ventana                                            | A partir del mensaje -8     | Se archivan en Memoria a Largo Plazo (LTM)                  |
+| Límite superior             | Máximo de tokens / mensajes retenidos                                       | 7 ± 2                       | Evita olvido del inicio de la consulta y sobrecarga         |
+| Recuperación desde LTM      | Cuando se necesita información antigua                                      | Solo si es relevante        | Se activa mediante Memoria=10 (Top-Down)                    |
+
+**Notas de la Ventana de Contexto:**
+- El bot mantiene **solo los últimos 7 ± 2 mensajes** en Memoria de Trabajo.
+- Superado el límite, los mensajes más antiguos se descartan automáticamente de la RAM.
+- La información antigua sigue disponible mediante la Memoria a Largo Plazo (LTM).
+- Esto equilibra precisión clínica, atención selectiva y eficiencia computacional.
 
 Miro:
 
