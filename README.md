@@ -99,3 +99,30 @@ Miro:
 
 <img width="1524" height="867" alt="Opera Instantánea_2026-03-26_103414_miro com" src="https://github.com/user-attachments/assets/afd912d5-8a30-4528-b8ad-df3638396b73" />
 
+# El Bilbliotecario
+
+Procesos de recuperacion y olvido
+
+| Paso | Fase del Flujo                          | Descripción                                                                 | Acción del Bot                                      | Componente Usado                  | Nota / Regla                          |
+|------|-----------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------|---------------------------------------|
+| 1    | Entrada de Pregunta                     | Recibe la consulta del usuario (Fase 2)                                     | Aplica Gatekeeper (filtro de ruido)                | Atención Selectiva = 10           | Filtra todo lo no clínico             |
+| 2    | Verificación en Contexto Inmediato      | Revisa si la información ya está disponible                                 | Busca dentro de la Ventana de Contexto             | RAM Cognitiva (7 ± 2 mensajes)    | Si está → Responder directamente      |
+| 3    | Búsqueda en Memoria Permanente          | Si no está en RAM, consulta la base de conocimiento                        | Recupera datos relevantes usando patrón Top-Down   | LTM (Memoria a Largo Plazo)       | Memoria = 10 + Atención = 10          |
+| 4    | Recuperación y Priorización             | Extrae solo la información útil y actual                                    | Prioriza entidades clínicas y contexto histórico   | Lenguaje = 10                     | Evita sobrecarga cognitiva            |
+| 5    | Integración y Respuesta                 | Combina contexto reciente + conocimiento recuperado                         | Genera respuesta objetiva y precisa                | Procesamiento final               | Emoción = 2 (siempre objetivo)        |
+
+**Regla de Olvido (Documentada en GitHub - README.md)**
+
+- **Condición**: Si pasan **10 minutos de inactividad** en la conversación.
+- **Acción**: Limpiar completamente la Ventana de Contexto (RAM Cognitiva).
+- **Consecuencia**: Los mensajes antiguos salen de la RAM, pero permanecen seguros y accesibles en LTM.
+- **Objetivo**: Evitar sobrecarga cognitiva, reducir consumo de tokens y garantizar privacidad de datos del paciente.
+
+cuadro:
+
+![image](https://github.com/user-attachments/assets/715b8177-2016-4d00-b812-4b516f329ba0)
+
+miro:
+
+<img width="1920" height="1032" alt="Captura de pantalla 2026-04-09 103944" src="https://github.com/user-attachments/assets/cb82fb0e-fd50-4be7-845d-049a321041dd" />
+
