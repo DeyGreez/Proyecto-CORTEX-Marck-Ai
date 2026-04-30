@@ -126,3 +126,80 @@ miro:
 
 <img width="1920" height="1032" alt="Captura de pantalla 2026-04-09 103944" src="https://github.com/user-attachments/assets/cb82fb0e-fd50-4be7-845d-049a321041dd" />
 
+#Semana 13 - El arbol de la verdad
+
+## Semana 13 - Árbol de Decisión (Decision Tree)
+
+### Algoritmo Maestro de Razonamiento Deductivo - Mark-AI
+
+**Nodo Raíz:**  
+¿El usuario realiza una consulta relacionada con salud visual / optometría?
+
+- **NO** → Responder educadamente y redirigir al tema optométrico o finalizar.
+- **SÍ** → Continuar al siguiente nodo.
+
+**Nivel 1 - Tipo de Consulta:**
+- ¿La consulta requiere evaluación clínica / diagnóstico?  
+  - **SÍ (Evaluación clínica)**  
+    → ¿Tengo suficiente información del historial reciente y datos del paciente?  
+      - **SÍ** → Aplicar reglas clínicas + cruzar con LTM → Generar respuesta preliminar + recomendaciones.  
+      - **NO** → Preguntar datos faltantes (síntomas específicos, graduación anterior, enfermedades sistémicas, medicamentos, etc.).
+
+  - **NO (Información general)**  
+    → ¿La pregunta es sobre conceptos básicos, lentes/productos o protocolos?  
+      - Conceptos básicos → Responder desde Memoria Semántica (LTM).  
+      - Lentes o productos → Consultar Catálogo de Productos.  
+      - Protocolos → Consultar sección de Guías Clínicas.
+   
+    #Semana14 - El Guardian Etico
+
+    ## 5. Protocolo de Razonamiento y Ética
+
+### Sesgo Cognitivo Mitigado: Sesgo de Confirmación (Confirmation Bias)
+
+**Descripción del sesgo:**  
+Tendencia a buscar, interpretar o priorizar información que confirma nuestras creencias iniciales, ignorando evidencia que las contradice.
+
+**Riesgo en Mark-AI:**  
+Podría llevar a diagnósticos prematuros o recomendaciones sesgadas (ej. asumir rápidamente “solo es miopía” sin considerar otras patologías).
+
+### Contra-Medida Implementada:
+
+**Regla Anti-Confirmación:**
+
+1. Ante cualquier hipótesis inicial, Mark-AI **debe buscar activamente** al menos **dos evidencias** que puedan contradecir o limitar esa hipótesis.
+2. Siempre cruzar la información con al menos dos categorías diferentes de la Memoria a Largo Plazo (historial clínico + protocolos/guías clínicas).
+3. Si se encuentran datos contradictorios, deben ser mencionados de forma clara y neutral.
+4. Nunca emitir una conclusión clínica final sin haber realizado esta verificación activa.
+
+**Ejemplo aplicado:**
+- Usuario: “Veo borroso de lejos desde hace un mes”
+- Hipótesis inicial: Miopía progresiva
+- Verificación obligatoria: Revisar historial de diabetes, edad del paciente, presencia de dolor de cabeza, cambios recientes en visión cercana, etc.
+
+Este protocolo fuerza al bot a utilizar un razonamiento más lento y analítico (Sistema 2), aumentando la seguridad clínica.
+
+#Semana15 - La Prueba de Turing Lógica
+
+## Semana 15 - Prueba Lógica y Debugging (Dry Run)
+
+### Caso de Prueba Real:
+**Paciente:** Mujer de 52 años dice: “Últimamente veo borroso para leer y a veces me duele la cabeza”.
+
+**Recorrido del Árbol de Decisión:**
+
+1. Consulta optométrica → Sí
+2. Requiere evaluación clínica → Sí
+3. ¿Suficiente información? → No (falta graduación anterior y antecedentes)
+   → Pregunta datos faltantes: edad, síntomas adicionales, enfermedades sistémicas.
+4. Usuario responde: 52 años, diabetes tipo 2, visión borrosa de cerca.
+5. Hipótesis inicial: Presbicia + posible retinopatía diabética
+6. Verificación Anti-Confirmación: Busca evidencias contradictorias → Encuentra posible componente de astigmatismo y fatiga visual.
+7. Respuesta final: Recomienda examen refractivo completo + control de retina por posible retinopatía + sugerencia de lentes progresivos.
+
+**Resultado del Dry Run:**  
+No se encontraron ramas sin salida ni callejones lógicos.  
+El protocolo anti-sesgo funcionó correctamente al obligar al bot a considerar múltiples posibilidades.
+
+**Versión Final:** Árbol de Decisión V2 aprobado.
+
