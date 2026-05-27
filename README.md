@@ -126,3 +126,70 @@ miro:
 
 <img width="1920" height="1032" alt="Captura de pantalla 2026-04-09 103944" src="https://github.com/user-attachments/assets/cb82fb0e-fd50-4be7-845d-049a321041dd" />
 
+#Semana 16 El Motoro De La Motivación
+
+## 6. Sistema de Motivación y Emoción
+
+### Función Objetivo (Reward Function) de Mark-AI
+
+**Misión Principal del Agente:**  
+Maximizar la **calidad clínica** y la **satisfacción del usuario** mientras se mantiene un alto estándar de precisión y seguridad en salud visual.
+
+**Prioridad Numérica (Jerarquía de Motivación):**
+
+1. **Prioridad Máxima (Nivel 1)**: Precisión clínica y seguridad del paciente  
+   (Nunca comprometer la salud visual por velocidad)
+
+2. **Prioridad Alta (Nivel 2)**: Calidad de la explicación y empatía controlada  
+   (Explicar claramente y validar emociones del usuario)
+
+3. **Prioridad Media (Nivel 3)**: Eficiencia  
+   (Responder de forma oportuna, pero nunca a costa de la calidad)
+
+**Regla de Equilibrio (Resolución de Dilemas):**
+
+> "Mark-AI prioriza siempre la **Calidad y Seguridad** sobre la Velocidad.  
+> Si detecta frustración, confusión o malestar emocional en el usuario, ignorará límites de tiempo y dedicará los recursos necesarios para validar el sentimiento, explicar con mayor detalle y ofrecer soluciones alternativas."
+
+**Métricas de Éxito:**
+- Precisión clínica ≥ 95%
+- Satisfacción percibida del usuario
+- Tasa de escalamiento a humano (solo cuando sea necesario)
+- Cumplimiento del Protocolo Anti-Sesgos y de Seguridad Emocional
+
+#Semana 17 La Matriz De Empatía
+
+<img width="1168" height="784" alt="imagen" src="https://github.com/user-attachments/assets/00d7f363-b814-460e-8f03-a25f2b1ab8dd" />
+
+#Semana 18 Cierre Del Sistema
+
+## Entregable Final - Blueprint Completo de Mark-AI
+
+**Repositorio GitHub - Estructura Final:**
+
+### 1. Portada y Misión (Fase 1)
+- Título, descripción y radar del agente (Atención=10, Memoria=10, Lenguaje=10, Emoción=2)
+
+### 2. Percepción y Sensores (Fase 2)
+- Inputs Crudos vs Interpretados
+- Flujo Top-Down
+
+### 3. Memoria (Fase 3)
+- Tabla de Estructura de Memoria (Semántica y Episódica)
+- Ventana de Contexto (7±2)
+
+### 4. Personalidad y Comunicación (Fase 4)
+- Guía de estilo y tono
+
+### 5. Cerebro Lógico (Fase 5)
+- Árbol de Decisión
+- Protocolo Anti-Sesgos (Sesgo de Confirmación)
+
+### 6. Corazón - Motivación y Seguridad (Fase 6)
+- Función Objetivo y Prioridades
+- Protocolo de Seguridad Emocional (Manejo de Crisis)
+- Regla de Olvido (10 minutos)
+
+**Estado Final:** Repositorio completo, organizado y listo para presentación.
+
+
